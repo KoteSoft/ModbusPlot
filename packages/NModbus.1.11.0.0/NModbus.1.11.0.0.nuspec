@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NModbus</id>
+    <version>1.11.0.0</version>
+    <title>NModbus</title>
+    <authors>Scott Alexander, Jim Straatman, Joseph Kerby</authors>
+    <owners>Scott Alexander, Jim Straatman, Joseph Kerby</owners>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://code.google.com/p/nmodbus/</projectUrl>
+    <iconUrl>https://ssl.gstatic.com/codesite/ph/images/defaultlogo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides connectivity to Modbus slave compatible devices and applications. Supports serial ASCII, serial RTU, serial over USB ASCII, serial over USB RTU, TCP, and UDP protocols</description>
+    <summary>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, includ</summary>
+    <releaseNotes />
+    <copyright />
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="log4net" version="1.2.10" />
+    </dependencies>
+    <references>
+      <reference file="FtdAdapter.dll" />
+      <reference file="Modbus.dll" />
+      <reference file="Modbus.Extensions.dll" />
+      <reference file="Unme.Common.dll" />
+    </references>
+  </metadata>
+</package>
